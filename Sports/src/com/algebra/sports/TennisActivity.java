@@ -1,0 +1,58 @@
+package com.algebra.sports;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ListView;
+
+public class TennisActivity extends Activity implements OnItemClickListener {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_sports);
+
+		TennisData.LoadData();
+		ListView listView = (ListView) findViewById(R.id.sports_list_view);
+		String[] ids = new String[TennisData.Items.size()];
+		for (int i = 0; i < ids.length; i++) {
+
+			ids[i] = Integer.toString(i + 1);
+		}
+
+		TennisAdapter adapter = new TennisAdapter(this,
+				R.layout.row_all_sports, ids);
+		listView.setAdapter(adapter);
+		listView.setOnItemClickListener(this);
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, int position,
+			long id) {
+
+		switch (position) {
+		case 0:
+
+			ShowDialog.showDialogTwoPhone(this,
+					"Nazovi Teniski klub Borovo Naselje (tel)",
+					"Nazovi Teniski klub Borovo Naselje (mob)",
+					"tel:032423113", "tel:0912572576", 45.37868, 18.96417);
+			break;
+		case 1:
+
+			ShowDialog.showDialogPhone(this, "Nazovi Teniski Klub Vukovar",
+					"tel:0991941855", 45.34075, 19.00834);
+			break;
+		case 2:
+
+			ShowDialog.showDialogPhone(this,
+					"Nazovi Stolnoteniski klub Vukovar 91", "tel:0995720639",
+					45.34462, 19.00385);
+			break;
+
+		}
+
+	}
+}

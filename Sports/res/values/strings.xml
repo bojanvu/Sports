@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sports</string>
+    <string name="football_name">Nogomet</string>
+    <string name="basketball_name">Košarka</string>
+    <string name="volleyball_name">Odbojka</string>
+    <string name="handball_name">Rukomet</string>
+    <string name="tennis_name">Tenis</string>
+    <string name="combat_sports_name">Borilački sportovi</string>
+    <string name="chess_name">Šah</string>
+    <string name="bocce_name">Boćanje</string>
+    <string name="other_sports_name">Ostali sportovi</string>
+    <string name="fitness_name">Fitnes klubovi</string>
+    <string name="sports_association_name">Sportske udruge</string>
+    <string name="maps_name">Mape</string>
+    <string name="action_settings">Settings</string>
+    <string name="sports_row_textview">Sports row</string>
+    <string name="action_bar_sports">Sport</string>
+    <string name="all_sports_name_textview">Name club</string>
+    <string name="all_sports_phone_textview">Phone club</string>
+    <string name="all_sports_mail_textview">Mail club</string>
+    <string name="all_sports_address_textview">Address club</string>
+
+</resources>
