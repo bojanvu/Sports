@@ -36,7 +36,8 @@ public class CombatSportsActivity extends Activity implements
 		switch (position) {
 		case 0:
 
-			ShowDialog.showDialogMail(this, "Nazovi Karate klub Vukovar 91",
+			ShowDialog.showDialogMail(this,
+					"Pošalji mail Karate klub Vukovar 91",
 					"karate.klub.vukovar91@vu.t.com.hr", 45.34236, 19.00911);
 			break;
 		case 1:
@@ -54,7 +55,8 @@ public class CombatSportsActivity extends Activity implements
 			break;
 		case 3:
 
-			ShowDialog.showDialogMail(this, "Nazovi Boksaèki klub Borovo",
+			ShowDialog.showDialogMail(this,
+					"Pošalji mail Boksaèki klub Borovo",
 					"boksacki.klub.borovo@vu.t-com.hr", 45.37906, 18.95583);
 			break;
 		case 4:
