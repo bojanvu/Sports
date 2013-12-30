@@ -11,7 +11,7 @@ public class CombatSportsData {
 		Items = new ArrayList<SportsConstructor>();
 		Items.add(new SportsConstructor(1, "kickbox.png",
 				"Karate klub Vukovar 91", "Adresa: Stanka Vraza 19 a",
-				"e-mail: karate.klub.vukovar91@vu.t.com.hr"));
+				"e-mail: karate.klub.vukovar91@vu.t-com.hr"));
 		Items.add(new SportsConstructor(2, "kickbox.png",
 				"Taekwondo klub Borovo",
 				"Adresa: Vijenac Ruðera Boškoviæa 2/25", "Telefon: 0992125282",

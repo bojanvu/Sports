@@ -49,7 +49,7 @@ public class BocceActivity extends Activity implements OnItemClickListener {
 		case 2:
 
 			ShowDialog.showDialogPhone(this, "Nazovi BK Borovo",
-					"tel:032421252", 45.34524, 19.00102);
+					"tel:032421252", 45.37752, 18.96440);
 
 			break;
 		case 3:

@@ -37,12 +37,12 @@ public class FootballActivity extends Activity implements OnItemClickListener {
 
 			ShowDialog.showDialogPhoneMail(this, "Nazovi HNK Vukovar 91",
 					"Pošalji mail HNK Vukovar 91", "tel:032441284",
-					"info@hnk-vukovar91.com", 45.34524, 19.00102);
+					"info@hnk-vukovar91.com", 45.35334, 18.98286);
 			break;
 		case 1:
 
 			ShowDialog.showDialogPhone(this, "Nazovi NK Vuteks Sloga",
-					"tel:0958589110", 45.34524, 19.00102);
+					"tel:0958589110", 45.32462, 19.00256);
 			break;
 		case 2:
 

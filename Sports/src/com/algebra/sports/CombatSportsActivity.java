@@ -38,7 +38,7 @@ public class CombatSportsActivity extends Activity implements
 
 			ShowDialog.showDialogMail(this,
 					"Pošalji mail Karate klub Vukovar 91",
-					"karate.klub.vukovar91@vu.t.com.hr", 45.34236, 19.00911);
+					"karate.klub.vukovar91@vu.t-com.hr", 45.34236, 19.00911);
 			break;
 		case 1:
 

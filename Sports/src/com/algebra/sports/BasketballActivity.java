@@ -42,8 +42,7 @@ public class BasketballActivity extends Activity implements OnItemClickListener 
 		case 1:
 
 			ShowDialog.showDialogPhone(this, "Nazovi KK Borovo",
-					"tel:0998071192", 45.34524, 19.00102);
-
+					"tel:0998071192", 45.37752, 18.96440);
 			break;
 		}
 
