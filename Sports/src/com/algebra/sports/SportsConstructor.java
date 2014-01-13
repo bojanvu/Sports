@@ -11,9 +11,9 @@ public class SportsConstructor {
 
 	public SportsConstructor(int id, String iconFile, String name) {
 
-		Id = id;
-		IconFile = iconFile;
-		Name = name;
+		this.Id = id;
+		this.IconFile = iconFile;
+		this.Name = name;
 
 	}
 
